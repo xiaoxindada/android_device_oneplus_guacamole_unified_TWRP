@@ -158,3 +158,7 @@ TARGET_USES_LOGD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_USB_STORAGE := true
 PLATFORM_VERSION := 16.1.0
+
+# Enable twrp debug
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
